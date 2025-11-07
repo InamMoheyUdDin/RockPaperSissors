@@ -1,0 +1,55 @@
+
+
+body{
+    background-color:#13003b;
+    text-align: center;
+}
+#game{
+    color: white;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
+#rules{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    border: 4px solid aquamarine;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+}
+p{
+    margin: auto;
+    font-weight: bold;
+}
+summary{
+    margin: auto;
+}
+#score{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: space-evenly;
+    color:white;
+}
+#option{
+    color: white;
+}
+button{
+    width:100px;
+    padding:2px;
+    margin:10px;
+    background-color:aquamarine;
+    border: 2px solid white;
+}
+
+#result-text{
+    color: white;
+    display: none;
+}
+#restart{
+    display:none;
+}
